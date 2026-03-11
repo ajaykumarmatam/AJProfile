@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ajay Kumar | AI Engineer</title>
+
+<style>
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background:#f5f7fb;
+}
+
+/* Header */
+
+.header{
+    height:220px;
+    background:linear-gradient(135deg,#4CAF50,#2c7be5);
+}
+
+/* Card */
+
+.profile-card{
+    width:800px;
+    margin:-120px auto 40px auto;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+    padding:30px;
+}
+
+/* Profile */
+
+.profile-top{
+    display:flex;
+    align-items:center;
+}
+
+.profile-img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:5px solid white;
+    object-fit:cover;
+}
+
+.profile-info{
+    margin-left:25px;
+}
+
+.name{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.role{
+    color:#666;
+    margin-top:5px;
+}
+
+.bio{
+    margin-top:10px;
+    color:#444;
+}
+
+/* Buttons */
+
+.buttons{
+    margin-top:15px;
+}
+
+.btn{
+    padding:8px 16px;
+    border-radius:6px;
+    text-decoration:none;
+    margin-right:8px;
+    font-size:14px;
+    color:white;
+}
+
+.github{
+    background:#24292e;
+}
+
+.linkedin{
+    background:#0a66c2;
+}
+
+.contact{
+    background:#4CAF50;
+}
+
+/* Section */
+
+.section{
+    margin-top:30px;
+}
+
+.section h2{
+    border-bottom:2px solid #eee;
+    padding-bottom:5px;
+}
+
+/* Skills */
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:10px;
+}
+
+.skill{
+    background:#eef3ff;
+    color:#2c3e50;
+    padding:8px 12px;
+    border-radius:6px;
+    font-size:14px;
+}
+
+/* Projects */
+
+.projects{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+}
+
+.project-card{
+    padding:15px;
+    border:1px solid #eee;
+    border-radius:8px;
+}
+
+.project-title{
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+/* Footer Contact */
+
+.contact-info{
+    margin-top:15px;
+    font-weight:bold;
+}
+
+/* Responsive */
+
+@media(max-width:850px){
+
+.profile-card{
+width:90%;
+}
+
+.projects{
+grid-template-columns:1fr;
+}
+
+.profile-top{
+flex-direction:column;
+text-align:center;
+}
+
+.profile-info{
+margin-left:0;
+margin-top:10px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header"></div>
+
+<div class="profile-card">
+
+<div class="profile-top">
+
+<img src="/static/profile.jpg" class="profile-img">
+
+<div class="profile-info">
+
+<div class="name">Ajay Kumar</div>
+
+<div class="role">AI Engineer | Python Developer</div>
+
+<div class="bio">
+AI engineer experienced in building LLM applications, RAG systems, AI agents and scalable FastAPI microservices.
+</div>
+
+<div class="buttons">
+
+<a href="#" class="btn github">GitHub</a>
+
+<a href="https://linkedin.com/in/ajay-kumar-matam-812ab4237"
+class="btn linkedin" target="_blank">LinkedIn</a>
+
+<a href="tel:+918008282327" class="btn contact">Contact</a>
+
+</div>
+
+<div class="contact-info">
+📞 +91 8008282327
+</div>
+
+</div>
+
+</div>
+
+<!-- Skills -->
+
+<div class="section">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Python</div>
+<div class="skill">Java</div>
+<div class="skill">FastAPI</div>
+<div class="skill">Flask API</div>
+<div class="skill">LLMs</div>
+<div class="skill">AI Agents</div>
+<div class="skill">MCP</div>
+<div class="skill">RAG</div>
+<div class="skill">ML Model Testing</div>
+
+</div>
+
+</div>
+
+<!-- Projects -->
+
+<div class="section">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<div class="project-title">AI Chatbot Platform</div>
+<div>Built chatbot using LLMs with RAG architecture and FastAPI backend.</div>
+</div>
+
+<div class="project-card">
+<div class="project-title">ML Model Testing Framework</div>
+<div>Created automated testing framework for ML model validation.</div>
+</div>
+
+<div class="project-card">
+<div class="project-title">AI Agent Workflow System</div>
+<div>Designed AI agents to automate enterprise workflows.</div>
+</div>
+
+<div class="project-card">
+<div class="project-title">Document Intelligence System</div>
+<div>Developed document search system using vector embeddings and RAG.</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
